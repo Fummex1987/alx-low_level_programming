@@ -1,5 +1,5 @@
-#ifndef _LIST_H_
-#define _LIST_H_
+#ifndef LIST_H
+#define LIST_H
 
 #include <stdlib.h>
 #include <string.h>
@@ -10,7 +10,6 @@
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
- *
  * Description: singly linked list node structure
  */
 typedef struct list_s
